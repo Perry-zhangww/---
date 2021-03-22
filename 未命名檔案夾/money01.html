@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>智能存錢筒帳戶</title>
+
+		<link rel="stylesheet" href="money01.css">
+
+		<style type="text/css">
+		
+		</style>
+
+	</head>
+
+
+	<body onload="ShowTime()">
+
+	
+			<h1>帳戶資訊</h1>
+
+			<!--
+
+					    開新視窗
+						 href="#" onclick="window.open('test.html', 'Total', config='height=650,width=450,left=800,top=900');" 			
+-->
+			<hr>
+			<br>
+
+			<!-- 日期 -->
+			
+			<div class="div1">
+				<div id="date1">
+				&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+				<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> &nbsp
+
+				<script language="javascript">
+				　var Today=new Date();
+				　document.write( Today.getFullYear()+ "-" + (Today.getMonth()+1) + "-" + Today.getDate() + " ");
+				</script>
+				</div>			
+						<!-- <label for="bookdate"></label> -->
+						<!-- <input type="date" id="bookdate" placeholder="2014-09-18">		 -->
+			</div>
+
+			<div class="div2">
+				<div id="date2">
+				&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+				<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> &nbsp
+
+				<script language="javascript">
+				　var Today=new Date();
+				　document.write( Today.getFullYear()+ "-" + (Today.getMonth()+1) + "-" + Today.getDate() + " ");
+				</script>
+				</div>	
+
+			</div>
+
+			<div class="div3" id="date3">
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+				  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+				</svg> &nbsp  date</div>
+
+			<div class="div4" id="date4">
+				&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+				<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> &nbsp date</div>
+
+			<div class="div5" id="date5">
+				&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+				<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> &nbsp
+				date</div>
+
+
+			<!-- 時間 -->
+
+
+			<div class="div1" id="time_all">
+
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+				  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+				  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+				</svg> &nbsp 投入時間
+				<!--現在時間 要加showbox
+				<script language="JavaScript" type="text/javascript">
+				function ShowTime()
+				{
+				var NowDate=new Date();
+				var h=NowDate.getHours();
+				var m=NowDate.getMinutes();
+				var s=NowDate.getSeconds();
+				document.getElementById('showbox').innerHTML = h+'時'+m+'分'+s+'秒';
+				setTimeout('ShowTime()', 1000);
+				}
+				</script>
+				-->
+			</div>
+
+			<div class="div2" id="time_2">
+
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+				<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+				<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+				</svg> &nbsp 投入時間
+			</div>
+
+			<div class="div3" id="time_3">
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+				<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+				<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+				</svg> &nbsp 投入時間
+			</div>
+
+			<div class="div4" id="time_4">
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+				<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+				<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+				</svg> &nbsp 投入時間
+			</div>
+
+			<div class="div5" id="time_5">
+				&nbsp <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+				<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+				<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+				</svg> &nbsp 投入時間
+			</div> 
+
+			<!-- 金額 -->
+
+			<div class="div1" id="money02">金額</div>
+
+			<div class="div1" id="m2">金額</div>
+
+			<div class="div3" id="m3">金額</div>
+
+			<div class="div4" id="m4">金額</div>
+
+			<div class="div5" id="m5">金額</div>
+
+
+			<!-- 修改鍵 -->
+
+			<!-- onload="openwin()" -->
+
+				
+			<div class="div1" id="modbtn">
+				<button type="submit" name="submit_button" value="" class="myMOUSE">修改</button>
+			</div>
+
+			<div class="div2" id="modbtn2">
+				<button type="submit" name="submit_button" value="" class="myMOUSE">修改</button>
+			</div>
+			 
+			<div class="div3" id="modbtn">
+				<button type="submit" name="submit_button" value="" class="myMOUSE">修改</button>
+			</div>
+
+			<div class="div4" id="modbtn">
+				<button type="submit" name="submit_button" value="" class="myMOUSE">修改</button>
+			</div>
+
+			<div class="div5"id="modbtn">
+				<button type="submit" name="submit_button" value="" class="myMOUSE">修改</button>
+			</div>
+
+
+
+			<!-- 金幣表單			 -->
+		<form id="form1">
+
+				<div id="coin">
+					<button id="b1" type="button" value="" class="myMOUSE">
+						<img id="img1" src="coin01.png" >
+					
+							<!-- href="#" onclick="window.open('test.html', 'Total', config='height=650,width=450,left=800,top=900');" -->
+						</button>
+				</div>
+
+
+						
+			<div id="form2" style="display: none;">
+				<div id="coin02">
+					<img id="img2" src="123.jpg" >
+					<p>
+					<img id="img2" src="456.jpg" >
+					<p>
+					<img id="img2" src="10.jpg" >
+					<p>
+					<img id="img2" src="501.jpg" >
+				</div>
+
+				<div>					
+					<input type="text" name="dollar1" id="dollar1">
+									
+					<input type="text" name="dollar2" id="dollar2">
+								
+					<input type="text" name="dollar3" id="dollar3">
+								
+					<input type="text" name="dollar4" id="dollar4">
+
+				</div>
+
+				<div id="btn_all">
+					
+					<button type="button" id="btn_1">+</button>
+					<button type="button" id="btn_2">-</button>
+					<button type="button" id="btn_3">+</button>
+					<button type="button" id="btn_4">-</button>
+					<button type="button" id="btn_5">+</button>
+			        <button type="button" id="btn_6">-</button>
+			        <button type="button" id="btn_7">+</button>
+			        <button type="button" id="btn_8">-</button>
+
+				</div>
+			</div> 
+
+
+			<script type="text/javascript" >
+				
+					const b1 = document.getElementById('b1');
+					const form2 = document.getElementById('form2');
+					
+					b1.addEventListener('click', (e) => {
+						form2.style.display = 
+							form2.style.display === 'none'
+						? ''
+						: 'none';
+					});
+
+			</script>
+		</form>
+
+			<div id="sum"> ＄總資產：<input type="test" name="sum2" id="sum2"></div>
+
+
+			
+
+		<!-- 表單<textarea id="message_box" name="message_box" rows="20" cols="30">...</textarea> -->
+	
+
+		
+
+
+		</body>
+	</html>

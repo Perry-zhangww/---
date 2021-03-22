@@ -1,0 +1,511 @@
+
+body
+{
+	background-color: #FDFEFE
+}
+
+hr
+{
+	border: 2px groove #EAEDED;
+}
+
+.myMOUSE
+{
+	cursor: pointer;
+}
+
+.div1
+{
+	width: 200px; 
+	height: 50px; 
+	border:1px #D1F2EB solid; 
+	margin-left: 20px; 
+	float: left; 
+	border-radius: 5px;
+	position: absolute; 
+	display: flex; 
+	align-items: center;
+
+}
+
+.div2
+{
+	width: 200px; 
+	height: 50px; 
+	border:1px #D1F2EB solid; 
+	border-radius: 5px; 	
+	position: relative;
+	float: left; 
+	top:65px;
+	margin-left: 20px;
+	align-items: center;
+	display: flex; 
+}
+
+.div3
+{
+	width: 200px; 
+	height: 50px; 
+	border:1px #D1F2EB solid; 
+	border-radius: 5px; 	
+	position: relative;
+	float: left; 
+	top:130px;
+	margin-left: 20px;
+	align-items: center;
+	display: flex; 
+}
+
+.div4
+
+{
+	width: 200px; 
+	height: 50px; 
+	border:1px #D1F2EB solid; 
+	border-radius: 5px; 	
+	position: relative;
+	float: left; 
+	bottom:135px;
+	margin-left: 20px;
+	align-items: center;
+	display: flex; 
+}
+
+.div5
+
+{
+	width: 200px; 
+	height: 50px; 
+	border:1px #D1F2EB solid; 
+	border-radius: 5px; 	
+	position: relative;
+	float: left; 
+	bottom:70px;
+	margin-left: 20px;
+	align-items: center;
+	display: flex; 
+
+}
+
+#date3
+{
+	margin-left: -202px;
+}
+
+#date4
+{
+	margin-left: -202px;
+	top:195px;
+}
+
+#date5
+{
+	margin-left: -202px;
+	top:260px;
+}
+
+#time_all
+
+{
+	margin-left: 240px;
+}
+
+#time_2
+{
+	margin-right: 240px;
+	
+
+}
+#time_3
+{
+	margin-left: -442px;
+	
+}
+
+#time_4
+{
+	margin-left: -442px;
+	top:195px;
+	
+}
+
+#time_5
+{
+	margin-left: -442px;
+	top:260px;
+	
+}
+
+#m2
+{
+	margin-left: -220px;	
+	top:65px;
+}
+#m3
+{
+	margin-left: -220px;
+}
+
+#m4
+{
+	margin-left: -220px;
+	top:195px;
+}
+
+#m5
+{
+	margin-left: -220px;
+	top:260px;
+}
+
+#money02
+{
+	margin-left: 464px;
+}
+
+#modbtn
+{
+	margin-left: 685px;
+}
+#modbtn2
+{
+	margin-left: 685px;
+	position: relative;
+	top: 13px;
+}
+#modbtn3
+{
+	margin-left: 685px;
+	position: relative;
+	top: 26px;
+}
+#modbtn4
+{
+	margin-left: 685px;
+	position: relative;
+	top: 39px;
+}
+
+#modbtn5
+{
+	margin-left: 685px;
+	position: relative;
+	top: 52px;
+}
+h1
+{
+	color: #3498DB ; 
+	border-width: 5px ; 
+	width: 200px; 
+	height: 45px ; 
+	padding: 15px; 
+	text-align: center;
+	background-color: #F2F3F4 ;
+	border-radius: 10px; 
+	border-style:outset; 
+	letter-spacing: 8px;
+}
+
+#coin
+{
+	text-align: right;
+	position: relative;
+	bottom: 100px;	
+
+}
+
+#b1
+{
+	width:70px;
+	height:60px;
+	font-size:20px;
+	background-color: White;
+	border-radius: 5px;
+	margin: auto;
+	border-color: White ;
+	border-style: dotted;
+}
+
+#date1
+{
+	flex-direction: column;
+
+}
+
+#money
+{
+	 display: flex;
+	 align-items: center;
+}
+
+#img1
+
+{	
+	width:45px;
+	height: 45px;
+
+}
+
+#coin02
+{
+	position: absolute;
+	bottom:105px;
+}
+
+#btn_all
+{
+
+	position: absolute;
+	bottom:5px;
+
+}
+
+button
+{
+
+	width:90px;
+	height:35px;
+	font-size:17px;
+	background-color: White;
+	border-radius: 5px;
+	margin: auto;
+	border-color: #F0FFF0 ;
+
+}
+
+
+
+#sum
+{
+	position: absolute; 
+	color: #1F618D; 
+	bottom: 3px; 
+	right: 6px; 
+	font-size: 25px
+
+}
+
+#sum2
+{
+	width: 100px; 
+	height: 28px; 
+	border:2px #FCF3CF ; 
+	border-radius: 5px; 
+	margin-bottom: 15px;
+	font-size: 25px;
+	color: Red;
+
+}
+
+form
+{
+
+	margin-left: 910px;
+}
+
+#img2
+{
+
+	width: 50px;
+	height: 50px;
+}
+
+#dollar1
+{
+
+	
+	width: 50px; 
+	height: 26px; 
+	border:1px #FCF3CF groove; 
+	border-radius: 5px; 	
+	position: absolute;
+	float: left; 
+	bottom:350px;
+	margin-left: 80px;
+	align-items: center;
+	display: flex; 
+	font-size: 18px;
+
+}
+
+#dollar2
+{
+
+	
+	width: 50px; 
+	height: 26px; 
+	border:1px #FCF3CF groove; 
+	border-radius: 5px; 	
+	position: absolute;
+	float: left; 
+	bottom:275px;
+	margin-left: 80px;
+	align-items: center;
+	display: flex; 
+	font-size: 18px;
+
+}
+
+#dollar3
+{
+
+	
+	width: 50px; 
+	height: 26px; 
+	border:1px #FCF3CF groove; 
+	border-radius: 5px; 	
+	position: absolute;
+	float: left; 
+	bottom:200px;
+	margin-left: 80px;
+	align-items: center;
+	display: flex; 
+	font-size: 18px;
+
+}
+
+#dollar4
+{
+
+	
+	width: 50px; 
+	height: 26px; 
+	border:1px #FCF3CF groove; 
+	border-radius: 5px; 	
+	position: absolute;
+	float: left; 
+	bottom:130px;
+	margin-left: 80px;
+	align-items: center;
+	display: flex; 
+	font-size: 18px;
+
+}
+
+#btn_1
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:345px;
+	margin-left: 170px;
+
+}
+
+#btn_2
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:345px;
+	margin-left: 220px;
+
+}
+
+#btn_3
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:270px;
+	margin-left: 170px;
+
+}
+
+ #btn_4
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:270px;
+	margin-left: 220px;
+
+}
+
+#btn_5
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:200px;
+	margin-left: 170px;
+
+}
+
+#btn_6
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:200px;
+	margin-left: 220px;
+
+}
+
+#btn_7
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:130px;
+	margin-left: 170px;
+
+}
+
+#btn_8
+{
+ 	width:30px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+	float: left; 
+	bottom:130px;
+	margin-left: 220px;
+
+}
+
+#form2
+{
+	position: relative;
+	top:350px;
+	border-color:#F7DC6F;
+}
+
